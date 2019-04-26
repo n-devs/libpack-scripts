@@ -1,0 +1,31 @@
+{
+  "name": "libpack",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "postinstall": "node ./scripts/postinstall.js",
+    "test": "node ./scripts/test.js"
+  },
+  "bin": {
+    "libpack": "./bin/libpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-psk/libpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-psk/libpack/issues"
+  },
+  "homepage": "https://github.com/n-psk/libpack#readme",
+  "devDependencies": {
+    "husky": "^2.1.0",
+    "lerna": "^3.13.4",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0",
+    "react-dev-utils": "^9.0.0"
+  }
+}
