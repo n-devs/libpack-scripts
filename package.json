@@ -1,8 +1,7 @@
 {
-  "name": "libpack",
-  "version": "0.0.1",
+  "name": "libpack-scripts",
+  "version": "0.0.3",
   "description": "",
-  "private": true,
   "scripts": {
     "build": "node ./scripts/build.js",
     "postinstall": "node ./scripts/postinstall.js",
@@ -11,12 +10,20 @@
   "bin": {
     "libpack": "./bin/libpack.js"
   },
+  "files": [
+    "bin",
+    "config",
+    "scripts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/n-psk/libpack.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nutthapat Piesangka",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
   "bugs": {
     "url": "https://github.com/n-psk/libpack/issues"
   },
