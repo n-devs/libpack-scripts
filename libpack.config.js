@@ -1,3 +1,3 @@
-const config = ["react-router-dom", "react-router-config"];
+const config = ["package-name", "package-name.1"];
 
 module.exports = config;
