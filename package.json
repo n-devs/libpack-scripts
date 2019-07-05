@@ -8,7 +8,7 @@
     "test": "node ./scripts/test.js"
   },
   "bin": {
-    "libpack": "./bin/libpack.js"
+    "libpack-scripts": "./bin/libpack.js"
   },
   "files": [
     "bin",
