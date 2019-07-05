@@ -62,4 +62,4 @@ test all packages
 
 ## Support
 
-<input type="checkbox" name="vehicle1" value="react" checked /> ReactJS
+<input type="checkbox" name="vehicle1" value="react" checked > ReactJS
