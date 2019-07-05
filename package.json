@@ -15,6 +15,18 @@
     "config",
     "scripts"
   ],
+  "keywords": [
+    "react",
+    "preact",
+    "library",
+    "module",
+    "cli",
+    "rollup",
+    "babel",
+    "publish",
+    "libpack-scripts",
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/n-psk/libpack-scripts.git"
