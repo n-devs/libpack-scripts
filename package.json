@@ -1,6 +1,6 @@
 {
   "name": "libpack-scripts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "scripts": {
     "build": "node ./scripts/build.js",
@@ -8,7 +8,7 @@
     "test": "node ./scripts/test.js"
   },
   "bin": {
-    "libpack-scripts": "./bin/libpack.js"
+    "libpack-scripts": "./bin/libpack-scripts.js"
   },
   "files": [
     "bin",
